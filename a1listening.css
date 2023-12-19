@@ -1,0 +1,75 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f5f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+.col-sm-9 {
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+/* Highlighted Section Styles */
+.highlighted {
+    background-color: #0076bd;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+/* Article Styles */
+.article {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.text-container {
+    padding: 20px;
+}
+
+.teaser {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.instructions {
+    font-style: italic;
+}
+
+.audio-container {
+    margin-top: 20px;
+}
+
+/* Audio Controls */
+audio {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 767px) {
+    .col-sm-9 {
+        width: 90%;
+    }
+}
